@@ -15,24 +15,24 @@ type(today)
 today_date = date.today()
 
 today_date
-# datetime.date(2021, 1, 19)
+# datetime.date(2025, 12, 31)
 
 type(today_date)
 # <class 'datetime.date'>
 
 today_date.month
-# 1
+# 12
 
 today_date.year
-# 2021
+# 2025
 
 today_date.day
-# 19
+# 31
 
 
 christmas = date(today_date.year, 12, 25)
 christmas
-# datetime.date(2021, 12, 25)
+# datetime.date(2025, 12, 25)
 
 # We need to use != & == rather than is / is not for comparison. Sorry for the mistake in the video.
 if christmas != today_date:
